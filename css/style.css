@@ -1,0 +1,461 @@
+* { 
+
+    margin:0; 
+
+    padding:0; 
+
+} 
+
+html { 
+
+    scroll-behavior: smooth; 
+
+} 
+
+body{ 
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+    font-size: larger; 
+
+    background-color: #ffddce; 
+
+    color: #553d3d; 
+
+} 
+
+.logo img{ 
+
+    width: 120px; 
+
+    height: 140px; 
+
+    margin-left: -160px; 
+
+    margin-top: -10px; 
+
+} 
+
+.banner{ 
+
+    display: flex; 
+
+    justify-content: center; 
+
+    margin-left: 165px; 
+
+} 
+
+.carro img { 
+
+    width: 60px; 
+
+    height: 50px; 
+
+    margin-right: 20px; 
+
+} 
+
+.perfil img { 
+
+    width: 65px; 
+
+    height: 50px; 
+
+    margin-right: 20px; 
+
+} 
+
+ 
+
+form { 
+
+    align-items: center; 
+
+    text-align: center; 
+
+    padding: 20px; 
+
+} 
+
+ 
+
+input { 
+
+    height: 50px; 
+
+    width: 700px; 
+
+    text-align: center; 
+
+} 
+
+ 
+
+img { 
+
+    width: 100%; 
+
+    margin-top: 20px; 
+
+} 
+
+header { 
+
+    background: rgb(192, 96, 32); 
+
+    color: #fff; 
+
+    padding: 10px 0; 
+
+    width:100%; 
+
+} 
+
+ 
+
+nav ul { 
+
+    list-style: none; 
+
+    display:flex; 
+
+    justify-content:center; 
+
+} 
+
+h1 { 
+
+    margin-bottom: 10px; 
+
+} 
+
+nav ul li { 
+
+    margin: 0 15px; 
+
+    margin-top: -3px; 
+
+} 
+
+ 
+
+nav ul li a { 
+
+    color: #1d1211; 
+
+    text-decoration:none; 
+
+    padding:5px 10px; 
+
+} 
+
+ 
+
+nav ul li a:hover { 
+
+    background: #c96f30; 
+
+    border-radius:10px; 
+
+    border-color: black; 
+
+} 
+
+ 
+
+main { 
+
+    margin-top:60px; 
+
+} 
+
+#recomendacoes { 
+
+    padding: 40px; 
+
+} 
+
+#recomendacoes img { 
+
+    margin: 20px; 
+
+    width: 200px; 
+
+    height: 300px; 
+
+    margin-left: 120px; 
+
+    margin-right: 130px; 
+
+    margin-bottom: 100px; 
+
+    border: #fff; 
+
+    border-color: #fff; 
+
+} 
+
+ 
+
+#autores{ 
+
+    padding: 40px; 
+
+    margin-top: 100px; 
+
+    align-items: center; 
+
+    text-align: center; 
+
+    justify-content: center; 
+
+    margin-bottom: 100px; 
+
+} 
+
+ 
+
+#autores img{ 
+
+    margin: 20px; 
+
+    width: 180px; 
+
+    height: 250px; 
+
+    border-radius: 200px; 
+
+    margin-left: 60px; 
+
+    margin-right: 60px; 
+
+} 
+
+#sobre { 
+
+    padding: 40px; 
+
+} 
+
+.sorbe{ 
+
+    text-align: justify; 
+
+    margin-bottom: 20px; 
+
+    padding: 20px; 
+
+    margin: 30px; 
+
+    gap: 90px; 
+
+    display: flex; 
+
+    align-items:flex-start; 
+
+    padding-top: 30px; 
+
+} 
+
+ 
+
+#sobre img { 
+
+    margin-top: -20px; 
+
+    width: 300px; 
+
+    height: 400px; 
+
+} 
+
+.logos { 
+
+    margin-top: -40px; 
+
+    width: 300px; 
+
+    height: 400px; 
+
+    padding-right: 60px;
+
+} 
+
+hr { 
+
+    border: none;            /* Remove borda padrão */ 
+
+    border-top: 1.5px solid #522c24; /* Linha sólida, ajustável */ 
+
+    width: 90%;              /* Ajusta a largura da linha */ 
+
+    margin: 20px auto;       /* Espaçamento e centralização */ 
+
+} 
+
+.tudo { 
+
+    margin-top: 50px; 
+
+    padding-top: 100px; 
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+    display: flex; 
+
+    flex-direction: row; 
+
+    justify-content: space-around; 
+
+    font-size: 17px; 
+
+    padding-bottom: 80px; 
+
+    color:#3b2c2c; 
+
+} 
+
+.redes img{ 
+
+    height: 50px; 
+
+    width: 50px; 
+
+    margin: 5px; 
+
+} 
+
+.redes { 
+
+    font-size: 20px; 
+
+} 
+
+.nave1 { 
+
+    font-size: 20px; 
+
+} 
+
+.ajuda1 { 
+
+    font-size: 20px; 
+
+} 
+
+.formas { 
+
+    font-size: 20px; 
+
+} 
+
+.formas img { 
+
+    height: 77px; 
+
+    width: 180px; 
+
+    margin-top: -6px; 
+
+} 
+
+a { 
+
+    color: #9e5437; 
+
+} 
+
+footer { 
+
+    text-align:center; 
+
+    padding:10px; 
+
+    background:#240b04; 
+
+    color: rgb(192, 96, 32); 
+
+    position:fixed; 
+
+    bottom:0; 
+
+    width: 100%; 
+
+} 
+
+        /*Celular*/
+        @media(max-width:600px) {
+            header h1 {
+                font-size: 12px;
+            }
+            body {
+                margin-right: -700px;
+            }
+            section img{
+                width: 100%;
+            }
+
+            #sobre img { 
+
+                margin-top: -20px; 
+            
+                width: 100px; 
+            
+                height: 200px; 
+            
+            } 
+            
+            .logos { 
+            
+                margin-top: -40px; 
+            
+                width: 300px; 
+            
+                height: 400px; 
+        
+
+            
+            } 
+                /*Tablet*/
+            }
+            @media (min-width: 601px) and (max-width: 900px) {
+                section img {
+                    width: 50%;
+                }
+                /*Descktop*/
+            }
+            @media (min-width: 901px) {
+                section img {
+                    width: 30%;
+                }
+                body {
+                    margin-right: -145px;
+                }
+                #sobre { 
+
+                    padding: 70px; 
+                } 
+                #sobre img { 
+
+                    margin-top: -20px; 
+                
+                    width: 100px; 
+                
+                    height: 200px; 
+                
+                } 
+                
+                .logos { 
+                
+                    margin-top: -40px; 
+                
+                    width: 300px; 
+                
+                    height: 400px; 
+            
+
+                
+                } 
+                
+            }
